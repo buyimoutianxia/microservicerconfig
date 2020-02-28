@@ -4,13 +4,19 @@ spring:
     - dev
 
 ---
+server:
+  port: 8888
 spring:
   profiles: dev
   application:
     name: microserviceconfig-dev
+  desc: desc-dev
 
 ---
+server:
+  port: 9999
 spring:
   profiles: test
   application:
     name: microserviceconfig-test
+  desc: desc-test
