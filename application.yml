@@ -20,4 +20,4 @@ spring:
   application:
     name: microserviceconfig-test
 my:
-  desc: desc-test
+  desc: desc-test-1
